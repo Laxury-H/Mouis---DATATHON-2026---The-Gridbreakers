@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🏆 Mouis - DATATHON 2026: The Gridbreakers</h1>
-  <p><strong>Giải pháp Dự báo Doanh thu & Tối ưu hoá Lợi nhuận (664k MAE Champion Pipeline)</strong></p>
+  <p><strong>Giải pháp Dự báo Doanh thu & Tối ưu hoá Lợi nhuận (667k MAE Champion Pipeline)</strong></p>
 </div>
 
 ---
@@ -13,7 +13,7 @@
 ---
 
 ## 💡 Tổng quan Giải pháp
-Giải pháp của đội Mouis tập trung vào việc dự báo doanh thu và tối ưu hóa lợi nhuận thông qua một hệ thống học máy toàn diện và kiến trúc Ensemble phức hợp. Giải pháp xuất sắc đạt kết quả **664k MAE** trên tập kiểm thử thông qua các phương pháp cốt lõi:
+Giải pháp của đội Mouis tập trung vào việc dự báo doanh thu và tối ưu hóa lợi nhuận thông qua một hệ thống học máy toàn diện và kiến trúc Ensemble phức hợp. Giải pháp xuất sắc đạt kết quả **667k MAE** trên tập kiểm thử thông qua các phương pháp cốt lõi:
 
 1. **Ensemble Đa tầng (Multi-layer Stacking - V18 & V25)**: 
    Sử dụng kết hợp các thuật toán Gradient Boosting mạnh mẽ (XGBoost, LightGBM, CatBoost) để tối ưu hóa hàm suy hao Tweedie, nhằm nắm bắt chuẩn xác phân phối doanh thu bán lẻ. Hệ thống dự báo song song ở cả mức giá trị tuyệt đối (Level) và sự biến thiên (Diff), kết hợp qua TimeSeriesSplit Stacking.
